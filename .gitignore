@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+
+# Output
+dist/
+@resilient/shared/dist
+data/
+
+# Env variables
+.env
+
+# Metadata
+.DS_store
+*.log
