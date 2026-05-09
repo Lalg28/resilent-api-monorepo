@@ -14,6 +14,7 @@ const initializeMongo = () => {
         .then(() => console.log('🚀 Connected to Mongo...'))
         .catch(error => {
             console.log(`Error connecting Mongo: ${error}`)
+            console.log('Reason:', JSON.stringify(error?.reason, null, 2))
             process.exit(1)
         })
 }
